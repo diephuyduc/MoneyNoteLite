@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@drawable/bg_color_white_corner16_top_left"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_title"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+
+        android:focusable="true"
+        android:id="@+id/edt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_money"/>
+    <EditText
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+
+        android:maxLength="12"
+        android:inputType="number"
+        android:id="@+id/edt_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:background="@drawable/bg_green_corner16"
+        android:id="@+id/btn_bottom_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_save"/>
+</LinearLayout>

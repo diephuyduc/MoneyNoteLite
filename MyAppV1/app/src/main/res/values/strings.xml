@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MyAppV1</string>
+    <string name="act_home">Thiết lập</string>
+    <string name="act_loan">Ghi chú</string>
+
+    <string name="op_yes">Có</string>
+    <string name="op_no">Không</string>
+
+    <string name="w_delete_data">Xóa dữ liệu</string>
+    <string name="w_msg_delete_data">Bạn có muốn xóa toàn bộ dữ liệu? Dữ liệu đã xóa không thể khôi phục.</string>
+    <string name="w_msg_temp_pay">Bạn có muốn trừ số tiền này không? Việc khôi phục là không thể.</string>
+
+    <string name="msg_create_success">Tạo thành công</string>
+    <string name="msg_delete_success">Xóa thành công</string>
+    <string name="msg_update_success">Cập nhật thành công</string>
+    <string name="msg_pay_success">Trừ thành công</string>
+    <string name="msg_valid_amount">Hãy nhập số tiền hợp lệ</string>
+    <string name="msg_invalid_info">Hãy nhập đầy đủ thông tin</string>
+
+
+    <string name="msg_not_match_password">Mật khẩu không khớp hoặc chưa đủ 6 số</string>
+    <string name="msg_not_correct_password">Mật khẩu không đúng</string>
+    <string name="title_title">Tiêu đề</string>
+    <string name="title_money">Số tiền</string>
+    <string name="title_first_date">Ngày tạo</string>
+    <string name="title_last_date">Ngày sửa cuối</string>
+    <string name="title_edit">Sửa</string>
+    <string name="title_delete">Xóa</string>
+    <string name="title_temp_pay">Tạm trừ</string>
+    <string name="title_save">Lưu</string>
+    <string name="title_enter_password">Nhập mật khẩu</string>
+    <string name="title_create_new_password">Tạo mật khẩu mới (gồm 6 chữ số)</string>
+    <string name="title_enter_new_password">Nhập mật khẩu mới</string>
+    <string name="title_re_enter_new_password">Nhập lại mật khẩu mới</string>
+    <string name="title_confirm">Xác nhận</string>
+
+</resources>
