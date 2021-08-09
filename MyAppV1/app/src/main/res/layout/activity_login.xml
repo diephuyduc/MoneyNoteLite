@@ -14,17 +14,22 @@
 
         android:src="@drawable/ic_home"
         />
-    <include layout="@layout/enterpassword_layout"
-        android:visibility="visible"
-        android:layout_below="@+id/img_logo"
-        android:id="@+id/layout_include_1"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent" />
-    <include layout="@layout/newpassword_layout"
-        android:visibility="gone"
-        android:layout_below="@+id/img_logo"
-        android:layout_height="wrap_content"
+   <LinearLayout
+       android:layout_below="@+id/img_logo"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/replace_layout"
+       ></LinearLayout>
+    <TextView
+       android:textAlignment="center"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/tv_login_biometric"
         android:layout_width="match_parent"
-        android:id="@+id/layout_include_2"/>
+        android:layout_height="wrap_content"
+        android:text="@string/title_login_biometric"
+        />
 
 </RelativeLayout>

@@ -140,7 +140,7 @@ public class HomeFragment extends Fragment {
                 }
             }
         });
-        dialogRegister.showDialog(false);
+        dialogRegister.showDialog(true);
     }
 
 }

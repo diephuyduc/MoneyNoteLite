@@ -25,17 +25,17 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences prefs = getSharedPreferences("my", MODE_PRIVATE);
         String pass = prefs.getString(MSetting.password, "");
 
-        if (pass.equals("") != true){
+        if (pass.equals("") != true) {
 
             presentPassword = pass;
 
+        }
+
+        Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+
+        startActivity(intent);
+
+        finish();
+
     }
-
-    Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-
-    startActivity(intent);
-
-    finish();
-
-}
 }

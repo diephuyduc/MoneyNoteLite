@@ -5,6 +5,7 @@
 
     <string name="op_yes">Có</string>
     <string name="op_no">Không</string>
+    <string name="op_login_with_pin">Đăng nhập với mật khẩu</string>
 
     <string name="w_delete_data">Xóa dữ liệu</string>
     <string name="w_msg_delete_data">Bạn có muốn xóa toàn bộ dữ liệu? Dữ liệu đã xóa không thể khôi phục.</string>
@@ -18,9 +19,11 @@
     <string name="msg_invalid_info">Hãy nhập đầy đủ thông tin</string>
 
 
+
     <string name="msg_not_match_password">Mật khẩu không khớp hoặc chưa đủ 6 số</string>
     <string name="msg_not_correct_password">Mật khẩu không đúng</string>
     <string name="title_title">Tiêu đề</string>
+    <string name="title_login_biometric">Đăng nhập với vân tay</string>
     <string name="title_money">Số tiền</string>
     <string name="title_first_date">Ngày tạo</string>
     <string name="title_last_date">Ngày sửa cuối</string>
