@@ -29,9 +29,22 @@
         <entry key="..\:/Documents/Android/MyAppV1/app/src/main/res/layout/my_item.xml" value="0.16" />
         <entry key="..\:/Documents/Android/MyAppV1/app/src/main/res/layout/newpassword_layout.xml" value="0.25" />
         <entry key="..\:/Documents/Android/MyAppV1/app/src/main/res/menu/menu_bottom_nv.xml" value="0.2" />
+        <entry key="..\:/Documents/GitHub/MoneyNoteLite/MyAppV1/app/src/main/res/drawable/bg_blue_corner16.xml" value="0.21614583333333334" />
+        <entry key="..\:/Documents/GitHub/MoneyNoteLite/MyAppV1/app/src/main/res/drawable/bg_white_no_corner.xml" value="0.21614583333333334" />
+        <entry key="..\:/Documents/GitHub/MoneyNoteLite/MyAppV1/app/src/main/res/drawable/bg_white_oval.xml" value="0.2128205128205128" />
+        <entry key="..\:/Documents/GitHub/MoneyNoteLite/MyAppV1/app/src/main/res/drawable/ic_red_delete_outline_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Documents/GitHub/MoneyNoteLite/MyAppV1/app/src/main/res/drawable/ic_yellow_post_add_24.xml" value="0.13177083333333334" />
         <entry key="..\:/Documents/GitHub/MoneyNoteLite/MyAppV1/app/src/main/res/layout/activity_login.xml" value="0.21" />
+        <entry key="..\:/Documents/GitHub/MoneyNoteLite/MyAppV1/app/src/main/res/layout/bottom_sheet_item_layout.xml" value="0.33" />
+        <entry key="..\:/Documents/GitHub/MoneyNoteLite/MyAppV1/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.2" />
+        <entry key="..\:/Documents/GitHub/MoneyNoteLite/MyAppV1/app/src/main/res/layout/detail_item.xml" value="0.2" />
+        <entry key="..\:/Documents/GitHub/MoneyNoteLite/MyAppV1/app/src/main/res/layout/enterpassword_layout.xml" value="0.1" />
+        <entry key="..\:/Documents/GitHub/MoneyNoteLite/MyAppV1/app/src/main/res/layout/fragment_home.xml" value="0.115625" />
         <entry key="..\:/Documents/GitHub/MoneyNoteLite/MyAppV1/app/src/main/res/layout/fragment_loan.xml" value="0.2" />
+        <entry key="..\:/Documents/GitHub/MoneyNoteLite/MyAppV1/app/src/main/res/layout/my_item.xml" value="0.33" />
         <entry key="..\:/Documents/GitHub/MoneyNoteLite/MyAppV1/app/src/main/res/layout/newpassword_layout.xml" value="0.1" />
+        <entry key="..\:/Documents/GitHub/MoneyNoteLite/MyAppV1/app/src/main/res/menu/menu_bottom_nv.xml" value="0.14114583333333333" />
+        <entry key="..\:/Documents/GitHub/MoneyNoteLite/MyAppV1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.15729166666666666" />
       </map>
     </option>
   </component>

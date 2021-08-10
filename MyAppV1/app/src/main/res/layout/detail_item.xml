@@ -57,6 +57,9 @@
         android:orientation="horizontal">
 
         <Button
+            android:paddingLeft="10dp"
+            android:paddingEnd="10dp"
+            android:drawableLeft="@drawable/ic_green_edit_24"
             android:background="@drawable/bg_green_corner16"
             android:text="@string/title_edit"
             android:id="@+id/btn_edit_detail"
@@ -65,6 +68,9 @@
             android:layout_marginEnd="10dp"
             />
         <Button
+            android:paddingEnd="10dp"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/ic_red_delete_outline_24"
             android:background="@drawable/bg_red_corner16"
             android:id="@+id/btn_delete_detail"
             android:layout_width="wrap_content"

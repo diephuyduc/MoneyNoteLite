@@ -38,25 +38,33 @@
 
                 android:id="@+id/temp_pay"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:layout_marginEnd="10dp"
                 android:background="@drawable/bg_blue_corner16"
+                android:drawableLeft="@drawable/ic_yellow_payments_24"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
                 android:text="@string/title_temp_pay" />
 
             <Button
                 android:id="@+id/btn_edit"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:layout_marginEnd="10dp"
                 android:background="@drawable/bg_green_corner16"
+                android:drawableLeft="@drawable/ic_green_edit_24"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
                 android:text="@string/title_edit" />
 
             <Button
-
                 android:id="@+id/btn_item_delete"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:background="@drawable/bg_red_corner16"
+                android:drawableLeft="@drawable/ic_red_delete_outline_24"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
                 android:text="@string/title_delete"
 
 

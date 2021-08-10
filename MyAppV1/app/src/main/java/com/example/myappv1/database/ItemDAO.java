@@ -14,7 +14,7 @@ import java.util.List;
 public interface ItemDAO {
     @Insert
     void insertItem(Item item);
-    @Query("select * from item")
+    @Query("select * from item ORDER BY id DESC")
     List<Item> getAllItem();
     @Update
     void updateItem(Item item);

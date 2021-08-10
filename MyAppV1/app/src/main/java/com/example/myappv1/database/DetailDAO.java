@@ -18,7 +18,7 @@ public interface DetailDAO {
     public void deleteDetail(Detail detail);
     @Update
     public void updateDetail(Detail detail);
-    @Query("select * from detail where itemId =:itemId order by firstNote")
+    @Query("select * from detail where itemId =:itemId order by lastUpdate DESC")
     public List<Detail> getDetailList(int itemId);
     @Query("delete from detail where itemId=:itemId")
     public void deletedItemFather(int itemId);

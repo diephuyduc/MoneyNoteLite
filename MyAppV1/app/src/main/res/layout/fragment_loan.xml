@@ -22,7 +22,7 @@
         android:layout_alignParentBottom="true"
         android:backgroundTint="#EFF1EF"
 
-        android:src="@drawable/icon_add_64"
+        android:src="@drawable/ic_yellow_post_add_50"
         app:borderWidth="0dp" />
 
 </RelativeLayout>

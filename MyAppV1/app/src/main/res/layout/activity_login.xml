@@ -1,21 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/white"
     android:id="@+id/login_layout"
+    android:gravity="center"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
-    <ImageView
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_marginTop="15dp"
+        android:scaleType="fitXY"
+        android:id="@+id/img_logo"
         android:layout_centerHorizontal="true"
         android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:id="@+id/img_logo"
-
-        android:src="@drawable/ic_home"
+        android:layout_height="150dp"
+        app:lottie_rawRes="@raw/image_logo"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
         />
+    <TextView
+        android:textStyle="bold"
+
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_below="@+id/img_logo"
+        android:id="@+id/name_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"/>
+
+    <TextView
+        android:textStyle="italic"
+        android:id="@+id/detail_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_app"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/app_detail"
+        android:textSize="18sp" />
    <LinearLayout
-       android:layout_below="@+id/img_logo"
+       android:layout_below="@+id/detail_app"
        android:orientation="vertical"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"

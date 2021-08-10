@@ -222,6 +222,7 @@ public class LoanFragment extends Fragment {
     }
     private void getData(){
         i = ItemDatabase.getInstance(getActivity()).itemDAO().getAllItem();
+
         itemAdapter.setData(i);
     }
 

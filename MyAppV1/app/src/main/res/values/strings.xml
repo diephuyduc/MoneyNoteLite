@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">MyAppV1</string>
+    <string name="app_name">MMote</string>
+    <string name="app_detail">MMote - Ứng dụng đơn giản để ghi chú chi tiêu cá nhân</string>
     <string name="act_home">Thiết lập</string>
     <string name="act_loan">Ghi chú</string>
 
@@ -29,10 +30,10 @@
     <string name="title_last_date">Ngày sửa cuối</string>
     <string name="title_edit">Sửa</string>
     <string name="title_delete">Xóa</string>
-    <string name="title_temp_pay">Tạm trừ</string>
+    <string name="title_temp_pay">Trả</string>
     <string name="title_save">Lưu</string>
     <string name="title_enter_password">Nhập mật khẩu</string>
-    <string name="title_create_new_password">Tạo mật khẩu mới (gồm 6 chữ số)</string>
+    <string name="title_create_new_password">Tạo mật khẩu mới gồm 6 chữ số</string>
     <string name="title_enter_new_password">Nhập mật khẩu mới</string>
     <string name="title_re_enter_new_password">Nhập lại mật khẩu mới</string>
     <string name="title_confirm">Xác nhận</string>
