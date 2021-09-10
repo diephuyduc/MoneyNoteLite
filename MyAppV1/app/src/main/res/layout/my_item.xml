@@ -27,6 +27,24 @@
             android:layout_height="wrap_content"
             android:text="Đây là tổng số tiền"
             android:textSize="20sp" />
+        <LinearLayout
+            android:visibility="invisible"
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hạn tất toán: "
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30/10/1999"
+                android:textSize="15sp" />
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"

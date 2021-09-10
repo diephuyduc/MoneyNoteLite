@@ -45,6 +45,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         tvBiometricLogin = findViewById(R.id.tv_login_biometric);
         linearLayout = findViewById(R.id.replace_layout);
+        tvBiometricLogin.setVisibility(View.GONE);
         addView();
        // init();
 
@@ -93,8 +94,8 @@ public class LoginActivity extends AppCompatActivity {
                         .setNegativeButtonText(getResources().getString(R.string.op_login_with_pin))
                         .build();
                 biometricPrompt.authenticate(promptInfo);
-                TextView tx = findViewById(R.id.tv_login_biometric);
-                tx.setOnClickListener(new View.OnClickListener() {
+                tvBiometricLogin.setVisibility(View.VISIBLE);
+                tvBiometricLogin.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
                         biometricPrompt.authenticate(promptInfo);

@@ -11,13 +11,14 @@ public class Item implements Serializable {
    private int id;
    private String title;
    private double total;
-   private boolean isLoan;
+   private String timeNotify;
 
-    public Item( String title, double total, boolean isLoan) {
+
+    public Item(String title, double total, String timeNotify) {
 
         this.title = title;
         this.total = total;
-        this.isLoan = isLoan;
+        this.timeNotify = timeNotify;
     }
 
     public int getId() {
@@ -44,11 +45,21 @@ public class Item implements Serializable {
         this.total = total;
     }
 
-    public boolean isLoan() {
-        return isLoan;
+    public String getTimeNotify() {
+        return timeNotify;
     }
 
-    public void setLoan(boolean loan) {
-        isLoan = loan;
+    public void setTimeNotify(String notify) {
+        this.timeNotify = notify;
+    }
+
+    @Override
+    public String toString() {
+        return "Item{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", total=" + total +
+                ", timeNotify='" + timeNotify + '\'' +
+                '}';
     }
 }

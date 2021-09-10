@@ -4,6 +4,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -75,6 +76,13 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
                 itemClickViewDetail.pay(item);
             }
         });
+        if(item.getTimeNotify()==null){
+            holder.linearLayout.setVisibility(View.GONE);
+        }
+        else {
+            holder.linearLayout.setVisibility(View.VISIBLE);
+            holder.tvDate.setText(item.getTimeNotify());
+        }
 
 
     }
@@ -91,6 +99,8 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
         private TextView tvTitle, tvTotal;
         private CardView cardView;
         private Button buttonEdit, buttonDelete, buttonTempPay;
+        private LinearLayout linearLayout;
+        private TextView tvDate;
 
 
         public ItemViewHolder(@NonNull View itemView) {
@@ -102,6 +112,8 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
 
             buttonDelete =itemView.findViewById(R.id.btn_item_delete);
             buttonTempPay = itemView.findViewById(R.id.temp_pay);
+            tvDate = itemView.findViewById(R.id.tv_date);
+            linearLayout =itemView.findViewById(R.id.line1);
         }
     }
 
