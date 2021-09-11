@@ -1,7 +1,5 @@
 package com.example.myappv1.broadcast_receiver;
 
-import static com.example.myappv1.fragment.LoanFragment.MY_TITLE;
-
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -11,7 +9,6 @@ import android.content.Intent;
 
 import androidx.core.app.NotificationCompat;
 
-import com.example.myappv1.LoginActivity;
 import com.example.myappv1.MainActivity;
 import com.example.myappv1.R;
 import com.example.myappv1.View.HomeActivity;
@@ -25,7 +22,7 @@ public class MyBroadcastReceiver  extends BroadcastReceiver {
         String title = intent.getStringExtra(LoanFragment.MY_TITLE);
         PendingIntent pendingIntent;
         if(MainActivity.presentPassword==null||MainActivity.presentPassword.equals("")){
-            pendingIntent=  PendingIntent.getActivity(context, 0, new Intent(context, LoginActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK),0);
+            pendingIntent=  PendingIntent.getActivity(context, 0, new Intent(context,MainActivity.class ).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK),0);
         }
         else {
             pendingIntent=  PendingIntent.getActivity(context, 0, new Intent(context, HomeActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK),0);

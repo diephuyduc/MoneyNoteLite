@@ -1,13 +1,13 @@
 package com.example.myappv1.View;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.FragmentStatePagerAdapter;
-import androidx.viewpager2.widget.ViewPager2;
-
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager2.widget.ViewPager2;
 
 import com.example.myappv1.Adapter.ViewPager2Adapter;
 import com.example.myappv1.DepthPageTransformer;
@@ -32,6 +32,7 @@ public class HomeActivity extends AppCompatActivity {
         viewPager2.setPageTransformer(new DepthPageTransformer());
         slideViewPager2();
         bottomAction();
+        Log.e("duc", "onCreate: " );
 
     }
 
@@ -87,5 +88,26 @@ public class HomeActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.e("duc", "onPause: " );
+        MainActivity.presentPassword= "";
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.e("duc", "onStart: " );
+    }
+
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        MainActivity.presentPassword= "";
+        Log.e("duc", "onDestroy: ");
     }
 }

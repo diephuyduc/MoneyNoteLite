@@ -43,13 +43,18 @@
         android:paddingEnd="20dp"
         android:text="@string/app_detail"
         android:textSize="18sp" />
-   <LinearLayout
-       android:layout_below="@+id/detail_app"
-       android:orientation="vertical"
+   <ScrollView
        android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:id="@+id/replace_layout"
-       ></LinearLayout>
+       android:layout_height="wrap_content">
+       <LinearLayout
+
+           android:layout_below="@+id/detail_app"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/replace_layout"
+           ></LinearLayout>
+   </ScrollView>
 
     <TextView
         android:id="@+id/tv_login_biometric"
